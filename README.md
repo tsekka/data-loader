@@ -17,9 +17,11 @@ composer require tsekka/data-loader
 
 ## Usage
 
-It works the same way as Laravel frameworks config() except that configurations are loaded very early in applications lifecycle so there is no access to many features(most importantly localization) in config files.
+Store & access the static data the same way as you store & access laravel config's.
 
-##### Example
+However, the configurations are loaded very early in Laravel application's lifecycle so there is no access to many features(most importantly localization) in config files.
+
+##### Basic example
 
 1. Create file in root/data directory:
 ``` php
@@ -31,6 +33,7 @@ return [
    ], // ...
 ];
 ```
+
 2. Use data() helper to access:
 ``` php
 // DemoController.php
