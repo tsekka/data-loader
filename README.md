@@ -1,4 +1,4 @@
-# For laravel framework. Adds helper function to access static data that is kept in data directory.
+# For Laravel framework. Adds helper function to access static data that is kept in data directory.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/tsekka/data-loader.svg?style=flat-square)](https://packagist.org/packages/tsekka/data-loader)
 [![Build Status](https://img.shields.io/travis/tsekka/data-loader/master.svg?style=flat-square)](https://travis-ci.org/tsekka/data-loader)
