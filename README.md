@@ -38,7 +38,7 @@ return [
 ``` php
 // DemoController.php
 App::setLocale('es');
-return data('packages.base');
+return data('packages.base.title');
 // returns 'Paquete base' (if there is a translation for Base Package)
 ```
 
