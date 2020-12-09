@@ -1,0 +1,48 @@
+{
+    "name": "tsekka/data-loader",
+    "description": "",
+    "keywords": [
+        "tsekka",
+        "data-loader"
+    ],
+    "homepage": "https://github.com/tsekka/data-loader",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kristjan Kaarma",
+            "email": "pintek@pintek.ee"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tsekka\\DataLoader\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tsekka\\DataLoader\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tsekka\\DataLoader\\DataLoaderServiceProvider"
+            ],
+            "aliases": {
+                "DataLoader": "Tsekka\\DataLoader\\DataLoaderFacade"
+            }
+        }
+    }
+}
