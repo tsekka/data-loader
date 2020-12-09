@@ -1,6 +1,6 @@
 {
     "name": "tsekka/data-loader",
-    "description": "Adds helper function in Laravel framework to access static data from data directory.",
+    "description": "For Laravel framework. Adds helper function to access static data kept in data directory.",
     "keywords": [
         "tsekka",
         "data-loader"
