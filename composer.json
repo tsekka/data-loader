@@ -1,6 +1,6 @@
 {
     "name": "tsekka/data-loader",
-    "description": "",
+    "description": "Adds helper function in Laravel framework to access static data from data directory.",
     "keywords": [
         "tsekka",
         "data-loader"
@@ -22,15 +22,6 @@
         "psr-4": {
             "Tsekka\\DataLoader\\": "src"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tsekka\\DataLoader\\Tests\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
     },
     "config": {
         "sort-packages": true
