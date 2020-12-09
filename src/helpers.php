@@ -8,7 +8,7 @@ if (!function_exists('data')) {
      *
      * @param  array|string|null  $key
      * @param  mixed  $default
-     * @return mixed|\Illuminate\Config\Repository
+     * @return mixed
      */
     function data($key = null, $default = null)
     {
