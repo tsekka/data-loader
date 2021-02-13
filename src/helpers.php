@@ -13,7 +13,7 @@ if (!function_exists('data')) {
     function data($key = null, $default = null)
     {
         if (is_null($key)) {
-            return app('data-loader');
+            return app('data-loader')->repository;
         }
 
         if (is_array($key)) {
